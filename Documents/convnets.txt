@@ -1,0 +1,41 @@
+https://arxiv.org/abs/1510.00149
+https://www.premiumbeat.com/blog/after-effects-scripts/
+https://cgi.tutsplus.com/tutorials/introduction-to-the-basics-of-after-effects-scripting--ae-22518
+http://creativedojo.net/learn-after-effects-scripting/
+http://www.motionscript.com/
+https://github.com/danro/easing-js/blob/master/easing.js
+https://blogs.adobe.com/creativecloud/files/2012/06/After-Effects-CS6-Scripting-Guide.pdf
+http://www.cs.toronto.edu/~rgrosse/csc321/calendar.html
+http://kwcfngcudae.tistory.com/m/327
+
+Year 2012 - SuperVision - Krizhevsky
+Year 2014 - GoogLeNet Szegedy 2014
+Year 2015 - VGG Simonyan 2014
+Year 2015 - MSRA
+
+http://www.ariafurniture.co.kr/shop/item.php?it_id=1489710345&ca_id=a0
+
+Real-Time Pedestrian Detection With Deep Network Cascades
+https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/43850.pdf
+DeepPed:
+https://github.com/DenisTome/DeepPed
+https://pdfs.semanticscholar.org/1f53/ca209f982500069fed73efe2345358eff79e.pdf
+
+CS231n:
+http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture5.pdf
+http://cs231n.stanford.edu/slides/2016/winter1516_lecture6.pdf
+http://cs231n.stanford.edu/slides/2017/cs231n_2017_lecture6.pdf
+
+ConvNets:
+http://www.labri.fr/perso/vlepetit/teaching/selected_topics_on_computer_vision_material/ranzato_cvpr2014_DLtutorial.pdf
+
+http://humanities.credu.com
+sec17037513
+pw: 17037513
+
+
+https://github.com/darksigma/Fundamentals-of-Deep-Learning-Book
+
+http://cs.nyu.edu/~fergus/tutorials/deep_learning_cvpr12/tutorial_p2_nnets_ranzato_short.pdf
+http://www.cs.toronto.edu/~ranzato/publications/ranzato_cvpr13.pdf
+http://cs231n.stanford.edu/slides/2016/winter1516_lecture6.pdf

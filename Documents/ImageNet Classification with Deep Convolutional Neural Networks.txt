@@ -1,0 +1,105 @@
+ImageNet Classification with Deep Convolutional Neural Networks
+
+Deep CNN to classify 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into
+1000 different classes.
+
+To reduce the overfitting in the fully-connected layers, we employed a recently-developed regularization
+method called "dropout"
+
+The neural network - 60 million paramters and 650,000 neurons, 5 conv layers, some of which are followed by max-pooling layers,
+and three fully-connected layers with a final 1000-way softmax. GPU implementation of the convolution operation.
+
+
+Compared to standard feedforward neural network with similarly-sized layers, CNNs have much fewer connections
+and parameters and so they are easier to train, while their theoretiaclly-best performance is likely to be only slightly worse.
+
+
+< The Dataset >
+ - ImagetNet: over 15 million labeled high-resolution images belonging to roughly 22,000 categories.
+ - On ImageNet, it is customary to report two error rates: top-1, and top-5, where the top-5 error rate is the fraction
+of test images for which the correct label is not among the five labels considered most probably by the model. 
+ - ImageNet consists of variable-resolution images, while our system requires a constant input dimensionality. Therefore,
+we down-sampled the images to a fixed resolution of 256 x 256.
+ - We trained our network on the raw RGB values of the pixels
+
+< The Architecture >
+ - 8 learned layers -- 5 conv layers and 3 fully-connected
+
+ReLU Nonlinearity
+ - tanh or sigmoid: saturating nonlinearities are much slower than the non-saturating nonlinearity as ReLUs.
+ - Deep convolutional neural networks with ReLUs train several times faster than their equivalents with tanh units.
+ - A four-layer convolutional neural network with ReLus reaches a 25% training error rate of CIFAR-10 six times faster than
+an equivalent network with tanh neurons. 
+ - networks with ReLUs consistently learn serveral times faster than equivalents with saturating neurons.
+
+< Training on Multiple GPUs >
+ - A single GTX 580 GPU with 3GB of memory, whicih limits the maximum size of the networks that can be trained on it.
+ - Turns out that 1.2 million training examples are enough to train networks which are too big to fit on one CPU.
+  -> Therefore, we spread out the net across two GPUs. 
+
+< Local Response Normalization >
+ - ReLUs have the desirable property that they do not require input normalization to prevent them from saturating.
+ - However, we still find that the following local normalization scheme aids generalization. 
+ - This scheme is similar to the local contrast normalization scheme of Jerrett et al, but ours would be more correctly 
+termed "brightness normalization", since we do not subtract the mean activity. 
+ - Response normalization reduces our top-1 and top-5 error rates by 1.4% and 1.2%, respectively.
+ - We also verifited the effectiveness of this scheme on the CIFAR-10 dataset: a four-layer CNN achieved a 13% test rate
+without normalization and 11% with normalization.
+ - * normalization is essential in generalization.
+
+
+< Overlapping Pooling >
+ - Pooling layers in CNNs summarize the outputs of neighboring groups of neurons in the same kernel map. 
+ - If we set s < z, we obtain overlapping pooling. This is what we use throughout our network, with s = 2, and z =3.
+This scheme reduces the top-1 and top-5 error rates by 0.4% and 0.3%, respectively, as compared with the non-overlapping
+scheme s = 2, z = 2, which produces the output of equivalent dimensions. 
+ - Observation: training that models with overlapping pooling find it slightly more difficult to overfit.
+
+< Reducing overfitting >
+1. Data Augmentation
+ - The easiest and most common method to reduce overfitting on image data is to artificially enlarge the dataset
+ (1) 
+ (2) 
+ - This scheme approx. captures an important property of natural images, namely, that object identity is invariant
+to changes in the intensity and color of the illumination. This scheme reduces the top-1 error rate by over 1%.
+
+Random mix/combinations of:
+ 
+
+2. Dropout
+ - Combining the predictions of many different models (ensembles) is a very successful way to reduce test errors,
+but it appears to be too expensive for big neural networks that already take several days to train.
+ - There is, however, a very efficient version of model combination that only costs about a factor of two during training. 
+ - The recently-introduced technique, called "dropout", consists of setting to zero the output of each hidden neuron with
+probability of 0.5. The neurons which are "dropped out" in this way do not contribute to the forward pass and do not
+participate in back-propagation. 
+ - It is, therefore, forced to learn more robust features that are useful in conjunction with many different random subsets
+of the other neurons. 
+
+< Details of learning >
+
+
+
+
+
+
+
+
+
+
+* 1x1 convolution with 32 filters,
+ - By using 1x1x64 filter and performing a 64-dimensinal dot product, 56 x 56 x 64 becomes 56 x 56 x 32.
+ - Similar to dimensionality reduction.
+
+pooling -> reduces W x H
+convolution -> increases or reduces the depth by using # of filters
+# of filters becomes the depth of the next layer.
+
+
+
+
+
+
+
+
+

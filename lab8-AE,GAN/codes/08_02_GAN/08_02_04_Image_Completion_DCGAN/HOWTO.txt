@@ -1,0 +1,1 @@
+python complete.py testdata\aligned\*.png --outDir outputImages

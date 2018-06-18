@@ -1,0 +1,718 @@
+[step: 0] loss: 69.0927810669
+[step: 1] loss: 30.7948036194
+[step: 2] loss: 9.3892698288
+[step: 3] loss: 5.23371076584
+[step: 4] loss: 13.0871114731
+[step: 5] loss: 18.2713794708
+[step: 6] loss: 15.7483167648
+[step: 7] loss: 9.89364337921
+[step: 8] loss: 4.92818641663
+[step: 9] loss: 2.58931398392
+[step: 10] loss: 2.65885186195
+[step: 11] loss: 4.01442289352
+[step: 12] loss: 5.47306585312
+[step: 13] loss: 6.24416255951
+[step: 14] loss: 6.04557752609
+[step: 15] loss: 5.01713657379
+[step: 16] loss: 3.55806350708
+[step: 17] loss: 2.15788912773
+[step: 18] loss: 1.23995482922
+[step: 19] loss: 1.0243396759
+[step: 20] loss: 1.43980813026
+[step: 21] loss: 2.14487242699
+[step: 22] loss: 2.69707655907
+[step: 23] loss: 2.79684495926
+[step: 24] loss: 2.4332909584
+[step: 25] loss: 1.83478391171
+[step: 26] loss: 1.2961550951
+[step: 27] loss: 1.01815235615
+[step: 28] loss: 1.03933787346
+[step: 29] loss: 1.26209175587
+[step: 30] loss: 1.5292494297
+[step: 31] loss: 1.7024204731
+[step: 32] loss: 1.71125268936
+[step: 33] loss: 1.56521952152
+[step: 34] loss: 1.33456385136
+[step: 35] loss: 1.11338233948
+[step: 36] loss: 0.979193329811
+[step: 37] loss: 0.962834894657
+[step: 38] loss: 1.03988158703
+[step: 39] loss: 1.14753639698
+[step: 40] loss: 1.21893942356
+[step: 41] loss: 1.21642816067
+[step: 42] loss: 1.14563703537
+[step: 43] loss: 1.04501795769
+[step: 44] loss: 0.96062207222
+[step: 45] loss: 0.922371029854
+[step: 46] loss: 0.93339908123
+[step: 47] loss: 0.974316716194
+[step: 48] loss: 1.01664471626
+[step: 49] loss: 1.03720915318
+[step: 50] loss: 1.02720439434
+[step: 51] loss: 0.993384957314
+[step: 52] loss: 0.95241266489
+[step: 53] loss: 0.921778142452
+[step: 54] loss: 0.911567568779
+[step: 55] loss: 0.920641839504
+[step: 56] loss: 0.938652932644
+[step: 57] loss: 0.95244795084
+[step: 58] loss: 0.953179717064
+[step: 59] loss: 0.940258145332
+[step: 60] loss: 0.920367360115
+[step: 61] loss: 0.902767300606
+[step: 62] loss: 0.89401692152
+[step: 63] loss: 0.895042300224
+[step: 64] loss: 0.901666581631
+[step: 65] loss: 0.907676160336
+[step: 66] loss: 0.908383190632
+[step: 67] loss: 0.902786910534
+[step: 68] loss: 0.893480122089
+[step: 69] loss: 0.884698212147
+[step: 70] loss: 0.87978541851
+[step: 71] loss: 0.879495859146
+[step: 72] loss: 0.88194924593
+[step: 73] loss: 0.884073019028
+[step: 74] loss: 0.883521974087
+[step: 75] loss: 0.879903793335
+[step: 76] loss: 0.874679982662
+[step: 77] loss: 0.870002090931
+[step: 78] loss: 0.86733931303
+[step: 79] loss: 0.866742193699
+[step: 80] loss: 0.867064356804
+[step: 81] loss: 0.866840660572
+[step: 82] loss: 0.865198194981
+[step: 83] loss: 0.862265825272
+[step: 84] loss: 0.858928859234
+[step: 85] loss: 0.856178760529
+[step: 86] loss: 0.854501307011
+[step: 87] loss: 0.853668034077
+[step: 88] loss: 0.852990269661
+[step: 89] loss: 0.851818144321
+[step: 90] loss: 0.849935412407
+[step: 91] loss: 0.847617864609
+[step: 92] loss: 0.845374882221
+[step: 93] loss: 0.843588888645
+[step: 94] loss: 0.842293560505
+[step: 95] loss: 0.841213941574
+[step: 96] loss: 0.839991033077
+[step: 97] loss: 0.838423371315
+[step: 98] loss: 0.836567223072
+[step: 99] loss: 0.834655880928
+[step: 100] loss: 0.832919955254
+[step: 101] loss: 0.831437110901
+[step: 102] loss: 0.830108165741
+[step: 103] loss: 0.828752875328
+[step: 104] loss: 0.827242732048
+[step: 105] loss: 0.825578451157
+[step: 106] loss: 0.823867619038
+[step: 107] loss: 0.822233736515
+[step: 108] loss: 0.820730268955
+[step: 109] loss: 0.819315314293
+[step: 110] loss: 0.817897975445
+[step: 111] loss: 0.816406309605
+[step: 112] loss: 0.814835011959
+[step: 113] loss: 0.813235938549
+[step: 114] loss: 0.811672627926
+[step: 115] loss: 0.810174465179
+[step: 116] loss: 0.808720707893
+[step: 117] loss: 0.80726480484
+[step: 118] loss: 0.805771529675
+[step: 119] loss: 0.804239571095
+[step: 120] loss: 0.802697777748
+[step: 121] loss: 0.801177620888
+[step: 122] loss: 0.799691677094
+[step: 123] loss: 0.798226356506
+[step: 124] loss: 0.796757221222
+[step: 125] loss: 0.795268118382
+[step: 126] loss: 0.793761730194
+[step: 127] loss: 0.792254269123
+[step: 128] loss: 0.790761172771
+[step: 129] loss: 0.789285838604
+[step: 130] loss: 0.787819504738
+[step: 131] loss: 0.786349177361
+[step: 132] loss: 0.784869194031
+[step: 133] loss: 0.783383786678
+[step: 134] loss: 0.781901896
+[step: 135] loss: 0.780429601669
+[step: 136] loss: 0.778966546059
+[step: 137] loss: 0.777506172657
+[step: 138] loss: 0.776042640209
+[step: 139] loss: 0.774574995041
+[step: 140] loss: 0.773106992245
+[step: 141] loss: 0.771643221378
+[step: 142] loss: 0.770185768604
+[step: 143] loss: 0.768733084202
+[step: 144] loss: 0.767281472683
+[step: 145] loss: 0.765829145908
+[step: 146] loss: 0.764376878738
+[step: 147] loss: 0.762927234173
+[step: 148] loss: 0.761481940746
+[step: 149] loss: 0.760041177273
+[step: 150] loss: 0.758602917194
+[step: 151] loss: 0.757165849209
+[step: 152] loss: 0.755729556084
+[step: 153] loss: 0.754295110703
+[step: 154] loss: 0.752864181995
+[step: 155] loss: 0.75143712759
+[step: 156] loss: 0.75001335144
+[step: 157] loss: 0.748591840267
+[step: 158] loss: 0.747172415257
+[step: 159] loss: 0.745755672455
+[step: 160] loss: 0.744341731071
+[step: 161] loss: 0.742932140827
+[step: 162] loss: 0.741525650024
+[step: 163] loss: 0.740122318268
+[step: 164] loss: 0.738721549511
+[step: 165] loss: 0.7373239398
+[step: 166] loss: 0.735929489136
+[step: 167] loss: 0.734538972378
+[step: 168] loss: 0.733151972294
+[step: 169] loss: 0.731768608093
+[step: 170] loss: 0.730388760567
+[step: 171] loss: 0.729012548923
+[step: 172] loss: 0.727639853954
+[step: 173] loss: 0.726271212101
+[step: 174] loss: 0.724906861782
+[step: 175] loss: 0.723546206951
+[step: 176] loss: 0.722189605236
+[step: 177] loss: 0.720836639404
+[step: 178] loss: 0.719487965107
+[step: 179] loss: 0.718143761158
+[step: 180] loss: 0.716803789139
+[step: 181] loss: 0.715468168259
+[step: 182] loss: 0.714136898518
+[step: 183] loss: 0.712810218334
+[step: 184] loss: 0.711488008499
+[step: 185] loss: 0.710170567036
+[step: 186] loss: 0.708858013153
+[step: 187] loss: 0.707549870014
+[step: 188] loss: 0.706246614456
+[step: 189] loss: 0.704948186874
+[step: 190] loss: 0.703654706478
+[step: 191] loss: 0.702366292477
+[step: 192] loss: 0.701082885265
+[step: 193] loss: 0.699804842472
+[step: 194] loss: 0.698531746864
+[step: 195] loss: 0.697264015675
+[step: 196] loss: 0.696001589298
+[step: 197] loss: 0.69474452734
+[step: 198] loss: 0.693492650986
+[step: 199] loss: 0.692246615887
+[step: 200] loss: 0.691005706787
+[step: 201] loss: 0.689770638943
+[step: 202] loss: 0.688541054726
+[step: 203] loss: 0.687317073345
+[step: 204] loss: 0.686099171638
+[step: 205] loss: 0.68488663435
+[step: 206] loss: 0.683679759502
+[step: 207] loss: 0.682479083538
+[step: 208] loss: 0.681284308434
+[step: 209] loss: 0.680095016956
+[step: 210] loss: 0.678912103176
+[step: 211] loss: 0.677734971046
+[step: 212] loss: 0.676564097404
+[step: 213] loss: 0.675398886204
+[step: 214] loss: 0.674239993095
+[step: 215] loss: 0.673087120056
+[step: 216] loss: 0.671940326691
+[step: 217] loss: 0.670799911022
+[step: 218] loss: 0.669665634632
+[step: 219] loss: 0.66853749752
+[step: 220] loss: 0.667415499687
+[step: 221] loss: 0.66629999876
+[step: 222] loss: 0.665190577507
+[step: 223] loss: 0.664087593555
+[step: 224] loss: 0.662990748882
+[step: 225] loss: 0.661900103092
+[step: 226] loss: 0.660816013813
+[step: 227] loss: 0.659738242626
+[step: 228] loss: 0.658666431904
+[step: 229] loss: 0.657601296902
+[step: 230] loss: 0.656542360783
+[step: 231] loss: 0.655489981174
+[step: 232] loss: 0.654443621635
+[step: 233] loss: 0.653403639793
+[step: 234] loss: 0.652370035648
+[step: 235] loss: 0.651342988014
+[step: 236] loss: 0.650322020054
+[step: 237] loss: 0.649307131767
+[step: 238] loss: 0.648298859596
+[step: 239] loss: 0.64729654789
+[step: 240] loss: 0.646300911903
+[step: 241] loss: 0.645311236382
+[step: 242] loss: 0.644327878952
+[step: 243] loss: 0.643350660801
+[step: 244] loss: 0.642379641533
+[step: 245] loss: 0.641414821148
+[step: 246] loss: 0.640456080437
+[step: 247] loss: 0.639503657818
+[step: 248] loss: 0.638556838036
+[step: 249] loss: 0.637616693974
+[step: 250] loss: 0.636682212353
+[step: 251] loss: 0.635753810406
+[step: 252] loss: 0.634831488132
+[step: 253] loss: 0.633914768696
+[step: 254] loss: 0.633004188538
+[step: 255] loss: 0.632099509239
+[step: 256] loss: 0.631200611591
+[step: 257] loss: 0.630307435989
+[step: 258] loss: 0.629420101643
+[step: 259] loss: 0.628538370132
+[step: 260] loss: 0.627662777901
+[step: 261] loss: 0.626792132854
+[step: 262] loss: 0.625927448273
+[step: 263] loss: 0.625068306923
+[step: 264] loss: 0.624214470387
+[step: 265] loss: 0.623366475105
+[step: 266] loss: 0.622523546219
+[step: 267] loss: 0.621686160564
+[step: 268] loss: 0.620854020119
+[step: 269] loss: 0.620027303696
+[step: 270] loss: 0.619205713272
+[step: 271] loss: 0.618389368057
+[step: 272] loss: 0.617577970028
+[step: 273] loss: 0.616771996021
+[step: 274] loss: 0.615970790386
+[step: 275] loss: 0.615174531937
+[step: 276] loss: 0.614383399487
+[step: 277] loss: 0.613597154617
+[step: 278] loss: 0.612815618515
+[step: 279] loss: 0.612038910389
+[step: 280] loss: 0.61126691103
+[step: 281] loss: 0.610499680042
+[step: 282] loss: 0.609736979008
+[step: 283] loss: 0.60897898674
+[step: 284] loss: 0.608225286007
+[step: 285] loss: 0.607476353645
+[step: 286] loss: 0.606731593609
+[step: 287] loss: 0.605991482735
+[step: 288] loss: 0.605255484581
+[step: 289] loss: 0.60452401638
+[step: 290] loss: 0.603796303272
+[step: 291] loss: 0.603073120117
+[step: 292] loss: 0.602353930473
+[step: 293] loss: 0.601638793945
+[step: 294] loss: 0.600927770138
+[step: 295] loss: 0.600220739841
+[step: 296] loss: 0.599517583847
+[step: 297] loss: 0.598818063736
+[step: 298] loss: 0.598122596741
+[step: 299] loss: 0.597430884838
+[step: 300] loss: 0.596742630005
+[step: 301] loss: 0.596058309078
+[step: 302] loss: 0.595377445221
+[step: 303] loss: 0.594700157642
+[step: 304] loss: 0.594026625156
+[step: 305] loss: 0.593356430531
+[step: 306] loss: 0.59268951416
+[step: 307] loss: 0.592026054859
+[step: 308] loss: 0.591365993023
+[step: 309] loss: 0.590709030628
+[step: 310] loss: 0.590055465698
+[step: 311] loss: 0.589405059814
+[step: 312] loss: 0.588757753372
+[step: 313] loss: 0.588113546371
+[step: 314] loss: 0.587472438812
+[step: 315] loss: 0.586834251881
+[step: 316] loss: 0.586199164391
+[step: 317] loss: 0.585566878319
+[step: 318] loss: 0.584937572479
+[step: 319] loss: 0.584311068058
+[step: 320] loss: 0.583687365055
+[step: 321] loss: 0.583066284657
+[step: 322] loss: 0.58244818449
+[step: 323] loss: 0.581832587719
+[step: 324] loss: 0.581219673157
+[step: 325] loss: 0.580609381199
+[step: 326] loss: 0.580001711845
+[step: 327] loss: 0.579396545887
+[step: 328] loss: 0.578793644905
+[step: 329] loss: 0.578193485737
+[step: 330] loss: 0.57759553194
+[step: 331] loss: 0.577000141144
+[step: 332] loss: 0.576406955719
+[step: 333] loss: 0.575816273689
+[step: 334] loss: 0.575227737427
+[step: 335] loss: 0.57464158535
+[step: 336] loss: 0.574057400227
+[step: 337] loss: 0.573475420475
+[step: 338] loss: 0.572895944118
+[step: 339] loss: 0.572318434715
+[step: 340] loss: 0.571742832661
+[step: 341] loss: 0.571169435978
+[step: 342] loss: 0.570598065853
+[step: 343] loss: 0.570028781891
+[step: 344] loss: 0.569461405277
+[step: 345] loss: 0.568895936012
+[step: 346] loss: 0.568332314491
+[step: 347] loss: 0.567770957947
+[step: 348] loss: 0.567211151123
+[step: 349] loss: 0.566653311253
+[step: 350] loss: 0.566097319126
+[step: 351] loss: 0.565543055534
+[step: 352] loss: 0.564990699291
+[step: 353] loss: 0.564440011978
+[step: 354] loss: 0.563891112804
+[step: 355] loss: 0.563343763351
+[step: 356] loss: 0.562798321247
+[step: 357] loss: 0.562254309654
+[step: 358] loss: 0.561712145805
+[step: 359] loss: 0.561171591282
+[step: 360] loss: 0.560632646084
+[step: 361] loss: 0.560095191002
+[step: 362] loss: 0.559559285641
+[step: 363] loss: 0.559025287628
+[step: 364] loss: 0.558492362499
+[step: 365] loss: 0.557961285114
+[step: 366] loss: 0.557431638241
+[step: 367] loss: 0.556903481483
+[step: 368] loss: 0.556376814842
+[step: 369] loss: 0.555851459503
+[step: 370] loss: 0.555327534676
+[step: 371] loss: 0.554805397987
+[step: 372] loss: 0.554284393787
+[step: 373] loss: 0.553764879704
+[step: 374] loss: 0.553246676922
+[step: 375] loss: 0.552729904652
+[step: 376] loss: 0.552214443684
+[step: 377] loss: 0.551700413227
+[step: 378] loss: 0.551187694073
+[step: 379] loss: 0.55067640543
+[step: 380] loss: 0.550166249275
+[step: 381] loss: 0.549657464027
+[step: 382] loss: 0.549150288105
+[step: 383] loss: 0.548644006252
+[step: 384] loss: 0.548139035702
+[step: 385] loss: 0.547635495663
+[step: 386] loss: 0.547133147717
+[step: 387] loss: 0.546632170677
+[step: 388] loss: 0.546132326126
+[step: 389] loss: 0.545633733273
+[step: 390] loss: 0.545136332512
+[step: 391] loss: 0.544640243053
+[step: 392] loss: 0.544145286083
+[step: 393] loss: 0.543651640415
+[step: 394] loss: 0.543159246445
+[step: 395] loss: 0.542667746544
+[step: 396] loss: 0.542177855968
+[step: 397] loss: 0.541688919067
+[step: 398] loss: 0.541201174259
+[step: 399] loss: 0.540714859962
+[step: 400] loss: 0.540229439735
+[step: 401] loss: 0.539745211601
+[step: 402] loss: 0.539262413979
+[step: 403] loss: 0.538780510426
+[step: 404] loss: 0.53829985857
+[step: 405] loss: 0.537820339203
+[step: 406] loss: 0.537341892719
+[step: 407] loss: 0.536864697933
+[step: 408] loss: 0.536388635635
+[step: 409] loss: 0.53591388464
+[step: 410] loss: 0.535440206528
+[step: 411] loss: 0.534967660904
+[step: 412] loss: 0.534496188164
+[step: 413] loss: 0.534025847912
+[step: 414] loss: 0.533556640148
+[step: 415] loss: 0.533088684082
+[step: 416] loss: 0.532621622086
+[step: 417] loss: 0.532155990601
+[step: 418] loss: 0.531691431999
+[step: 419] loss: 0.531227886677
+[step: 420] loss: 0.530765533447
+[step: 421] loss: 0.530304312706
+[step: 422] loss: 0.529844462872
+[step: 423] loss: 0.529385507107
+[step: 424] loss: 0.52892768383
+[step: 425] loss: 0.528471052647
+[step: 426] loss: 0.528015494347
+[step: 427] loss: 0.527561247349
+[step: 428] loss: 0.527107954025
+[step: 429] loss: 0.52665579319
+[step: 430] loss: 0.526204884052
+[step: 431] loss: 0.525755047798
+[step: 432] loss: 0.525306403637
+[step: 433] loss: 0.524858772755
+[step: 434] loss: 0.524412512779
+[step: 435] loss: 0.523967206478
+[step: 436] loss: 0.523523032665
+[step: 437] loss: 0.523080170155
+[step: 438] loss: 0.522638440132
+[step: 439] loss: 0.522197782993
+[step: 440] loss: 0.521758317947
+[step: 441] loss: 0.521320223808
+[step: 442] loss: 0.520882844925
+[step: 443] loss: 0.520446717739
+[step: 444] loss: 0.52001196146
+[step: 445] loss: 0.519578456879
+[step: 446] loss: 0.519145905972
+[step: 447] loss: 0.518714606762
+[step: 448] loss: 0.518284320831
+[step: 449] loss: 0.517855286598
+[step: 450] loss: 0.517427682877
+[step: 451] loss: 0.517001032829
+[step: 452] loss: 0.516575396061
+[step: 453] loss: 0.516151189804
+[step: 454] loss: 0.515728116035
+[step: 455] loss: 0.51530611515
+[step: 456] loss: 0.514885663986
+[step: 457] loss: 0.514465928078
+[step: 458] loss: 0.514047503471
+[step: 459] loss: 0.513630390167
+[step: 460] loss: 0.513214468956
+[step: 461] loss: 0.512799918652
+[step: 462] loss: 0.512386143208
+[step: 463] loss: 0.51197373867
+[step: 464] loss: 0.511562645435
+[step: 465] loss: 0.511152625084
+[step: 466] loss: 0.510744035244
+[step: 467] loss: 0.510336339474
+[step: 468] loss: 0.50993013382
+[step: 469] loss: 0.509525120258
+[step: 470] loss: 0.50912129879
+[step: 471] loss: 0.508718490601
+[step: 472] loss: 0.508317053318
+[step: 473] loss: 0.507916808128
+[step: 474] loss: 0.507517933846
+[step: 475] loss: 0.507120192051
+[step: 476] loss: 0.506723642349
+[step: 477] loss: 0.50632840395
+[step: 478] loss: 0.505934476852
+[step: 479] loss: 0.505541682243
+[step: 480] loss: 0.505150079727
+[step: 481] loss: 0.504759728909
+[step: 482] loss: 0.504370510578
+[step: 483] loss: 0.503982841969
+[step: 484] loss: 0.503596067429
+[step: 485] loss: 0.503210842609
+[step: 486] loss: 0.502826631069
+[step: 487] loss: 0.502443790436
+[step: 488] loss: 0.502062141895
+[step: 489] loss: 0.501681685448
+[step: 490] loss: 0.501302540302
+[step: 491] loss: 0.500924766064
+[step: 492] loss: 0.500548183918
+[step: 493] loss: 0.50017285347
+[step: 494] loss: 0.49979865551
+[step: 495] loss: 0.499425768852
+[step: 496] loss: 0.499054372311
+[step: 497] loss: 0.498683869839
+[step: 498] loss: 0.498314797878
+[step: 499] loss: 0.497946947813
+('predicted : ', array([ 0.72959864], dtype=float32), 'GT : ', array([ 0.73018021]))
+('predicted : ', array([ 0.72644365], dtype=float32), 'GT : ', array([ 0.75533177]))
+('predicted : ', array([ 0.75581485], dtype=float32), 'GT : ', array([ 0.75964527]))
+('predicted : ', array([ 0.76829094], dtype=float32), 'GT : ', array([ 0.77654906]))
+('predicted : ', array([ 0.77449626], dtype=float32), 'GT : ', array([ 0.79872799]))
+('predicted : ', array([ 0.79090732], dtype=float32), 'GT : ', array([ 0.76177277]))
+('predicted : ', array([ 0.78232044], dtype=float32), 'GT : ', array([ 0.75810053]))
+('predicted : ', array([ 0.76724619], dtype=float32), 'GT : ', array([ 0.77695713]))
+('predicted : ', array([ 0.76837623], dtype=float32), 'GT : ', array([ 0.65930074]))
+('predicted : ', array([ 0.66244048], dtype=float32), 'GT : ', array([ 0.67206604]))
+('predicted : ', array([ 0.65202546], dtype=float32), 'GT : ', array([ 0.6283201]))
+('predicted : ', array([ 0.64506906], dtype=float32), 'GT : ', array([ 0.6216169]))
+('predicted : ', array([ 0.61028689], dtype=float32), 'GT : ', array([ 0.57842471]))
+('predicted : ', array([ 0.60152632], dtype=float32), 'GT : ', array([ 0.58422444]))
+('predicted : ', array([ 0.5809921], dtype=float32), 'GT : ', array([ 0.59937962]))
+('predicted : ', array([ 0.59376287], dtype=float32), 'GT : ', array([ 0.58232997]))
+('predicted : ', array([ 0.59152234], dtype=float32), 'GT : ', array([ 0.59206432]))
+('predicted : ', array([ 0.58956569], dtype=float32), 'GT : ', array([ 0.60876407]))
+('predicted : ', array([ 0.60522074], dtype=float32), 'GT : ', array([ 0.63700511]))
+('predicted : ', array([ 0.62101316], dtype=float32), 'GT : ', array([ 0.64219292]))
+('predicted : ', array([ 0.64543372], dtype=float32), 'GT : ', array([ 0.67215339]))
+('predicted : ', array([ 0.66508162], dtype=float32), 'GT : ', array([ 0.64915832]))
+('predicted : ', array([ 0.66272831], dtype=float32), 'GT : ', array([ 0.64338777]))
+('predicted : ', array([ 0.65131938], dtype=float32), 'GT : ', array([ 0.63615998]))
+('predicted : ', array([ 0.64641309], dtype=float32), 'GT : ', array([ 0.6526557]))
+('predicted : ', array([ 0.64731008], dtype=float32), 'GT : ', array([ 0.6227534]))
+('predicted : ', array([ 0.6455965], dtype=float32), 'GT : ', array([ 0.62391925]))
+('predicted : ', array([ 0.62689501], dtype=float32), 'GT : ', array([ 0.60552907]))
+('predicted : ', array([ 0.61439824], dtype=float32), 'GT : ', array([ 0.63298315]))
+('predicted : ', array([ 0.62883848], dtype=float32), 'GT : ', array([ 0.61695367]))
+('predicted : ', array([ 0.62873989], dtype=float32), 'GT : ', array([ 0.66314783]))
+('predicted : ', array([ 0.64897817], dtype=float32), 'GT : ', array([ 0.67824467]))
+('predicted : ', array([ 0.67490262], dtype=float32), 'GT : ', array([ 0.67489298]))
+('predicted : ', array([ 0.67698944], dtype=float32), 'GT : ', array([ 0.69978233]))
+('predicted : ', array([ 0.69042909], dtype=float32), 'GT : ', array([ 0.70870054]))
+('predicted : ', array([ 0.70608318], dtype=float32), 'GT : ', array([ 0.70412501]))
+('predicted : ', array([ 0.70550948], dtype=float32), 'GT : ', array([ 0.69319582]))
+('predicted : ', array([ 0.69539422], dtype=float32), 'GT : ', array([ 0.66970535]))
+('predicted : ', array([ 0.68400031], dtype=float32), 'GT : ', array([ 0.65283056]))
+('predicted : ', array([ 0.67045921], dtype=float32), 'GT : ', array([ 0.65312211]))
+('predicted : ', array([ 0.66709691], dtype=float32), 'GT : ', array([ 0.68701719]))
+('predicted : ', array([ 0.68590987], dtype=float32), 'GT : ', array([ 0.6878915]))
+('predicted : ', array([ 0.68701392], dtype=float32), 'GT : ', array([ 0.66116585]))
+('predicted : ', array([ 0.67187375], dtype=float32), 'GT : ', array([ 0.65810571]))
+('predicted : ', array([ 0.66919875], dtype=float32), 'GT : ', array([ 0.65784351]))
+('predicted : ', array([ 0.66421956], dtype=float32), 'GT : ', array([ 0.6597378]))
+('predicted : ', array([ 0.67000538], dtype=float32), 'GT : ', array([ 0.6347901]))
+('predicted : ', array([ 0.64458841], dtype=float32), 'GT : ', array([ 0.58046468]))
+('predicted : ', array([ 0.60677177], dtype=float32), 'GT : ', array([ 0.58626459]))
+('predicted : ', array([ 0.59827107], dtype=float32), 'GT : ', array([ 0.59276376]))
+('predicted : ', array([ 0.60046929], dtype=float32), 'GT : ', array([ 0.59719378]))
+('predicted : ', array([ 0.60286427], dtype=float32), 'GT : ', array([ 0.61004643]))
+('predicted : ', array([ 0.60054469], dtype=float32), 'GT : ', array([ 0.53237623]))
+('predicted : ', array([ 0.54386973], dtype=float32), 'GT : ', array([ 0.51209176]))
+('predicted : ', array([ 0.50954425], dtype=float32), 'GT : ', array([ 0.54642391]))
+('predicted : ', array([ 0.53761196], dtype=float32), 'GT : ', array([ 0.55828575]))
+('predicted : ', array([ 0.55656779], dtype=float32), 'GT : ', array([ 0.58157219]))
+('predicted : ', array([ 0.5700087], dtype=float32), 'GT : ', array([ 0.60229407]))
+('predicted : ', array([ 0.5927667], dtype=float32), 'GT : ', array([ 0.58987848]))
+('predicted : ', array([ 0.58890188], dtype=float32), 'GT : ', array([ 0.59809726]))
+('predicted : ', array([ 0.5917992], dtype=float32), 'GT : ', array([ 0.59107333]))
+('predicted : ', array([ 0.59303713], dtype=float32), 'GT : ', array([ 0.6210048]))
+('predicted : ', array([ 0.61378431], dtype=float32), 'GT : ', array([ 0.64857557]))
+('predicted : ', array([ 0.64221185], dtype=float32), 'GT : ', array([ 0.66475074]))
+('predicted : ', array([ 0.66646445], dtype=float32), 'GT : ', array([ 0.65408375]))
+('predicted : ', array([ 0.66956061], dtype=float32), 'GT : ', array([ 0.66565422]))
+('predicted : ', array([ 0.67291683], dtype=float32), 'GT : ', array([ 0.66244821]))
+('predicted : ', array([ 0.67924678], dtype=float32), 'GT : ', array([ 0.70304668]))
+('predicted : ', array([ 0.69533741], dtype=float32), 'GT : ', array([ 0.71231461]))
+('predicted : ', array([ 0.70866168], dtype=float32), 'GT : ', array([ 0.72464268]))
+('predicted : ', array([ 0.72613657], dtype=float32), 'GT : ', array([ 0.7171817]))
+('predicted : ', array([ 0.72544867], dtype=float32), 'GT : ', array([ 0.72916005]))
+('predicted : ', array([ 0.73127824], dtype=float32), 'GT : ', array([ 0.72050422]))
+('predicted : ', array([ 0.72899121], dtype=float32), 'GT : ', array([ 0.7165696]))
+('predicted : ', array([ 0.7244724], dtype=float32), 'GT : ', array([ 0.72633312]))
+('predicted : ', array([ 0.73012078], dtype=float32), 'GT : ', array([ 0.73839881]))
+('predicted : ', array([ 0.73792237], dtype=float32), 'GT : ', array([ 0.80508147]))
+('predicted : ', array([ 0.80487001], dtype=float32), 'GT : ', array([ 0.81700166]))
+('predicted : ', array([ 0.7937755], dtype=float32), 'GT : ', array([ 0.81172651]))
+('predicted : ', array([ 0.80394471], dtype=float32), 'GT : ', array([ 0.81787596]))
+('predicted : ', array([ 0.80555707], dtype=float32), 'GT : ', array([ 0.81330025]))
+('predicted : ', array([ 0.8131566], dtype=float32), 'GT : ', array([ 0.84422254]))
+('predicted : ', array([ 0.83008546], dtype=float32), 'GT : ', array([ 0.842882]))
+('predicted : ', array([ 0.84084463], dtype=float32), 'GT : ', array([ 0.85016813]))
+('predicted : ', array([ 0.85089368], dtype=float32), 'GT : ', array([ 0.85139215]))
+('predicted : ', array([ 0.8562308], dtype=float32), 'GT : ', array([ 0.85188756]))
+('predicted : ', array([ 0.86151761], dtype=float32), 'GT : ', array([ 0.84713699]))
+('predicted : ', array([ 0.85313708], dtype=float32), 'GT : ', array([ 0.84486381]))
+('predicted : ', array([ 0.85745382], dtype=float32), 'GT : ', array([ 0.82941725]))
+('predicted : ', array([ 0.84211403], dtype=float32), 'GT : ', array([ 0.83749016]))
+('predicted : ', array([ 0.84205317], dtype=float32), 'GT : ', array([ 0.83046641]))
+('predicted : ', array([ 0.84731418], dtype=float32), 'GT : ', array([ 0.8244043]))
+('predicted : ', array([ 0.83568245], dtype=float32), 'GT : ', array([ 0.81487416]))
+('predicted : ', array([ 0.82784569], dtype=float32), 'GT : ', array([ 0.81467013]))
+('predicted : ', array([ 0.83176273], dtype=float32), 'GT : ', array([ 0.80755887]))
+('predicted : ', array([ 0.82136339], dtype=float32), 'GT : ', array([ 0.80688842]))
+('predicted : ', array([ 0.81374711], dtype=float32), 'GT : ', array([ 0.80726731]))
+('predicted : ', array([ 0.81964272], dtype=float32), 'GT : ', array([ 0.81487416]))
+('predicted : ', array([ 0.82065773], dtype=float32), 'GT : ', array([ 0.80595595]))
+('predicted : ', array([ 0.81857973], dtype=float32), 'GT : ', array([ 0.80001036]))
+('predicted : ', array([ 0.8097797], dtype=float32), 'GT : ', array([ 0.80505248]))
+('predicted : ', array([ 0.81296664], dtype=float32), 'GT : ', array([ 0.81286319]))
+('predicted : ', array([ 0.8226034], dtype=float32), 'GT : ', array([ 0.83798574]))
+('predicted : ', array([ 0.83447504], dtype=float32), 'GT : ', array([ 0.83877253]))
+('predicted : ', array([ 0.84358859], dtype=float32), 'GT : ', array([ 0.82411293]))
+('predicted : ', array([ 0.83592147], dtype=float32), 'GT : ', array([ 0.77847252]))
+('predicted : ', array([ 0.80254978], dtype=float32), 'GT : ', array([ 0.80575192]))
+('predicted : ', array([ 0.79263705], dtype=float32), 'GT : ', array([ 0.77856004]))
+('predicted : ', array([ 0.79097784], dtype=float32), 'GT : ', array([ 0.78672046]))
+('predicted : ', array([ 0.79353273], dtype=float32), 'GT : ', array([ 0.81373749]))
+('predicted : ', array([ 0.80664486], dtype=float32), 'GT : ', array([ 0.80534385]))
+('predicted : ', array([ 0.80647838], dtype=float32), 'GT : ', array([ 0.79607592]))
+('predicted : ', array([ 0.80908805], dtype=float32), 'GT : ', array([ 0.81271732]))
+('predicted : ', array([ 0.81648463], dtype=float32), 'GT : ', array([ 0.82673583]))
+('predicted : ', array([ 0.82532215], dtype=float32), 'GT : ', array([ 0.8587658]))
+('predicted : ', array([ 0.85274404], dtype=float32), 'GT : ', array([ 0.85786232]))
+('predicted : ', array([ 0.85939246], dtype=float32), 'GT : ', array([ 0.82087793]))
+('predicted : ', array([ 0.83583552], dtype=float32), 'GT : ', array([ 0.84652507]))
+('predicted : ', array([ 0.84245664], dtype=float32), 'GT : ', array([ 0.84229908]))
+('predicted : ', array([ 0.8411532], dtype=float32), 'GT : ', array([ 0.82320945]))
+('predicted : ', array([ 0.84137648], dtype=float32), 'GT : ', array([ 0.82985431]))
+('predicted : ', array([ 0.83524674], dtype=float32), 'GT : ', array([ 0.81606901]))
+('predicted : ', array([ 0.82393664], dtype=float32), 'GT : ', array([ 0.82734793]))
+('predicted : ', array([ 0.83304077], dtype=float32), 'GT : ', array([ 0.82746444]))
+('predicted : ', array([ 0.83902377], dtype=float32), 'GT : ', array([ 0.82860112]))
+('predicted : ', array([ 0.83856732], dtype=float32), 'GT : ', array([ 0.82341349]))
+('predicted : ', array([ 0.83496177], dtype=float32), 'GT : ', array([ 0.85506439]))
+('predicted : ', array([ 0.85149592], dtype=float32), 'GT : ', array([ 0.84669992]))
+('predicted : ', array([ 0.86027086], dtype=float32), 'GT : ', array([ 0.85564731]))
+('predicted : ', array([ 0.85949069], dtype=float32), 'GT : ', array([ 0.83247739]))
+('predicted : ', array([ 0.84027737], dtype=float32), 'GT : ', array([ 0.83346838]))
+('predicted : ', array([ 0.84634572], dtype=float32), 'GT : ', array([ 0.83763602]))
+('predicted : ', array([ 0.84936327], dtype=float32), 'GT : ', array([ 0.8822271]))
+('predicted : ', array([ 0.87795764], dtype=float32), 'GT : ', array([ 0.90041324]))
+('predicted : ', array([ 0.89737165], dtype=float32), 'GT : ', array([ 0.88721069]))
+('predicted : ', array([ 0.89506483], dtype=float32), 'GT : ', array([ 0.89420545]))
+('predicted : ', array([ 0.88824618], dtype=float32), 'GT : ', array([ 0.93424998]))
+('predicted : ', array([ 0.92248911], dtype=float32), 'GT : ', array([ 0.91839536]))
+('predicted : ', array([ 0.92649609], dtype=float32), 'GT : ', array([ 0.89333115]))
+('predicted : ', array([ 0.90138704], dtype=float32), 'GT : ', array([ 0.8824893]))
+('predicted : ', array([ 0.88671362], dtype=float32), 'GT : ', array([ 0.88254764]))
+('predicted : ', array([ 0.89236593], dtype=float32), 'GT : ', array([ 0.85098408]))
+('predicted : ', array([ 0.85768092], dtype=float32), 'GT : ', array([ 0.84827366]))
+('predicted : ', array([ 0.84032577], dtype=float32), 'GT : ', array([ 0.80481927]))
+('predicted : ', array([ 0.81439471], dtype=float32), 'GT : ', array([ 0.78567131]))
+('predicted : ', array([ 0.79314381], dtype=float32), 'GT : ', array([ 0.78535076]))
+('predicted : ', array([ 0.77502644], dtype=float32), 'GT : ', array([ 0.84509701]))
+('predicted : ', array([ 0.8327136], dtype=float32), 'GT : ', array([ 0.86838345]))
+('predicted : ', array([ 0.85759991], dtype=float32), 'GT : ', array([ 0.85322827]))
+('predicted : ', array([ 0.8380897], dtype=float32), 'GT : ', array([ 0.7869245]))
+('predicted : ', array([ 0.80555868], dtype=float32), 'GT : ', array([ 0.76203515]))
+('predicted : ', array([ 0.75685298], dtype=float32), 'GT : ', array([ 0.70974988]))
+('predicted : ', array([ 0.72575313], dtype=float32), 'GT : ', array([ 0.77506266]))
+('predicted : ', array([ 0.7564097], dtype=float32), 'GT : ', array([ 0.79252019]))
+('predicted : ', array([ 0.77274948], dtype=float32), 'GT : ', array([ 0.81219274]))
+('predicted : ', array([ 0.80225378], dtype=float32), 'GT : ', array([ 0.78103725]))
+('predicted : ', array([ 0.79777426], dtype=float32), 'GT : ', array([ 0.8062765]))
+('predicted : ', array([ 0.79767126], dtype=float32), 'GT : ', array([ 0.80356608]))
+('predicted : ', array([ 0.81490892], dtype=float32), 'GT : ', array([ 0.78234879]))
+('predicted : ', array([ 0.79222196], dtype=float32), 'GT : ', array([ 0.78435977]))
+('predicted : ', array([ 0.79638183], dtype=float32), 'GT : ', array([ 0.80347856]))
+('predicted : ', array([ 0.80638379], dtype=float32), 'GT : ', array([ 0.81105624]))
+('predicted : ', array([ 0.81932855], dtype=float32), 'GT : ', array([ 0.77375112]))
+('predicted : ', array([ 0.79323697], dtype=float32), 'GT : ', array([ 0.74425689]))
+('predicted : ', array([ 0.75089842], dtype=float32), 'GT : ', array([ 0.75177622]))
+('predicted : ', array([ 0.74635786], dtype=float32), 'GT : ', array([ 0.78680799]))
+('predicted : ', array([ 0.78032446], dtype=float32), 'GT : ', array([ 0.7768696]))
+('predicted : ', array([ 0.78844297], dtype=float32), 'GT : ', array([ 0.81207623]))
+('predicted : ', array([ 0.79393089], dtype=float32), 'GT : ', array([ 0.82731875]))
+('predicted : ', array([ 0.81840354], dtype=float32), 'GT : ', array([ 0.86482773]))
+('predicted : ', array([ 0.84822398], dtype=float32), 'GT : ', array([ 0.86476956]))
+('predicted : ', array([ 0.85543263], dtype=float32), 'GT : ', array([ 0.88467514]))
+('predicted : ', array([ 0.88120252], dtype=float32), 'GT : ', array([ 0.88750224]))
+('predicted : ', array([ 0.88586217], dtype=float32), 'GT : ', array([ 0.88977543]))
+('predicted : ', array([ 0.88673598], dtype=float32), 'GT : ', array([ 0.86922858]))
+('predicted : ', array([ 0.87935859], dtype=float32), 'GT : ', array([ 0.87913778]))
+('predicted : ', array([ 0.87220186], dtype=float32), 'GT : ', array([ 0.88560778]))
+('predicted : ', array([ 0.8884362], dtype=float32), 'GT : ', array([ 0.88018695]))
+('predicted : ', array([ 0.88080597], dtype=float32), 'GT : ', array([ 0.87056929]))
+('predicted : ', array([ 0.87663692], dtype=float32), 'GT : ', array([ 0.86663467]))
+('predicted : ', array([ 0.87598783], dtype=float32), 'GT : ', array([ 0.87141442]))
+('predicted : ', array([ 0.88225877], dtype=float32), 'GT : ', array([ 0.85247048]))
+('predicted : ', array([ 0.87394059], dtype=float32), 'GT : ', array([ 0.84588379]))
+('predicted : ', array([ 0.85757875], dtype=float32), 'GT : ', array([ 0.81391235]))
+('predicted : ', array([ 0.83903986], dtype=float32), 'GT : ', array([ 0.85564731]))
+('predicted : ', array([ 0.85232323], dtype=float32), 'GT : ', array([ 0.85786232]))
+('predicted : ', array([ 0.86580473], dtype=float32), 'GT : ', array([ 0.87861321]))
+('predicted : ', array([ 0.87148303], dtype=float32), 'GT : ', array([ 0.91396551]))
+('predicted : ', array([ 0.89733404], dtype=float32), 'GT : ', array([ 0.91542274]))
+('predicted : ', array([ 0.9138537], dtype=float32), 'GT : ', array([ 0.91000172]))
+('predicted : ', array([ 0.91495752], dtype=float32), 'GT : ', array([ 0.9190948]))
+('predicted : ', array([ 0.91460776], dtype=float32), 'GT : ', array([ 0.91457743]))
+('predicted : ', array([ 0.91301274], dtype=float32), 'GT : ', array([ 0.91900746]))
+('predicted : ', array([ 0.92348713], dtype=float32), 'GT : ', array([ 0.90947714]))
+('predicted : ', array([ 0.91329926], dtype=float32), 'GT : ', array([ 0.91373231]))
+('predicted : ', array([ 0.91351891], dtype=float32), 'GT : ', array([ 0.90238046]))
+('predicted : ', array([ 0.91527659], dtype=float32), 'GT : ', array([ 0.91067217]))
+('predicted : ', array([ 0.9149124], dtype=float32), 'GT : ', array([ 0.95231962]))
+('predicted : ', array([ 0.93147492], dtype=float32), 'GT : ', array([ 0.96560951]))
+('predicted : ', array([ 0.95741457], dtype=float32), 'GT : ', array([ 1.]))
+('predicted : ', array([ 0.9808796], dtype=float32), 'GT : ', array([ 0.98974125]))
+('predicted : ', array([ 0.98103857], dtype=float32), 'GT : ', array([ 0.96397742]))
+('predicted : ', array([ 0.96816373], dtype=float32), 'GT : ', array([ 0.90280311]))
+('predicted : ', array([ 0.90649867], dtype=float32), 'GT : ', array([ 0.88668611]))
+('predicted : ', array([ 0.87884414], dtype=float32), 'GT : ', array([ 0.88349487]))
+('predicted : ', array([ 0.88326728], dtype=float32), 'GT : ', array([ 0.89175741]))
+('predicted : ', array([ 0.88402808], dtype=float32), 'GT : ', array([ 0.90038407]))
+('predicted : ', array([ 0.90208828], dtype=float32), 'GT : ', array([ 0.89994701]))
+('predicted : ', array([ 0.89414209], dtype=float32), 'GT : ', array([ 0.91635521]))
+('predicted : ', array([ 0.9135071], dtype=float32), 'GT : ', array([ 0.92046468]))
+('predicted : ', array([ 0.91956586], dtype=float32), 'GT : ', array([ 0.92390372]))
+('predicted : ', array([ 0.92388666], dtype=float32), 'GT : ', array([ 0.93588207]))
+('predicted : ', array([ 0.93588239], dtype=float32), 'GT : ', array([ 0.95211558]))
+('predicted : ', array([ 0.95028985], dtype=float32), 'GT : ', array([ 0.95564213]))
+('predicted : ', array([ 0.95526093], dtype=float32), 'GT : ', array([ 0.9513578]))
+('predicted : ', array([ 0.95642501], dtype=float32), 'GT : ', array([ 0.96645463]))
+('predicted : ', array([ 0.96118736], dtype=float32), 'GT : ', array([ 0.97785024]))
+('predicted : ', array([ 0.96824998], dtype=float32), 'GT : ', array([ 0.98831302]))
